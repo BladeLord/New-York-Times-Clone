@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&display=swap');
+
+* {
+    font-family: arial, sans-serif;
+    color: #5F6368;
+    width: auto;
+    height: auto;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    background-color: white;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    top: 0;
+    position: fixed;
+    overflow: hidden;
+    border-bottom: 1px solid rgb(243, 243, 243);
+}
+
+.leftbar {
+    display: flex;
+   
+}
+
+/*Main Content*/
+
+.container {
+    justify-content: center;
+    align-content: center;
+}
+
+
+section {
+   display: block;
+   
+}
+
+.headline-image {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.article {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+.author {
+    text-align: left;
+}
+
+
+
+.author-details {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* Article */
+
+article {
+    margin: auto;
+    padding: auto;
+    width: 50%;
+    justify-content: center;
+    
+}
+
+.subscribe {
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    line-height: 0;
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+/*Theory of Inflation*/
+
+.theory-area {
+    display: grid;
+    grid-column-gap: 15px;
+    position: relative;
+    grid-template-columns: 25% 25% 25% 25%;
+    width: 100%;
+}
+
+
+/* Ads */
+
+.ads {
+    display: grid;
+    justify-content: center;
+    width: 100vw;
+    margin: 0;
+    padding: 1rem 1rem ;
+    text-align: center; 
+    font-size: 10px;
+    background-color: rgb(247, 247, 247);
+}
+
+
+/* See More */
+ 
+.more-section {
+    padding: 0 15rem;
+    justify-items: center;
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: 3fr 1fr;
+    
+}
+
+.most-popular-section {
+    display: grid;
+    grid-row-gap: 15px;
+}
+
+.more {
+    
+    display: grid;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    position: relative;
+    grid-template-columns: 300px 300px 300px;
+    width: 100%;
+}
+
+
+
+/*Footer*/
+
+.footer-area {
+    margin: 0 15rem;
+}
+
+.footer-links-area {
+    display: grid;
+    justify-items: left;
+    grid-template-columns: repeat(6, 1fr);
+
+}
+
+#footer-link6 {
+    border-left: 1px solid grey;
+    padding-left: 2rem;
+}
+
+
+/*Copyright*/
+
+.copyright {
+    margin: 0 15rem;
+}
+
+.copyright-list {
+    display: flex;
+    font-size: 10px;
+    justify-content: space-evenly;
+}
+
+
+
+/* Utilities */
+
+.navicon {
+    width: 1rem;
+    padding: 0 1rem;
+}
+
+.logo {
+    height: 2.5rem;
+}
+
+button {
+    background-color: rgb(86, 123, 149);
+    color: white;
+    padding: 8px 10px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+#h-img {
+    width : 60%;
+    
+}
+
+h1 {
+    font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+    font-style: italic;
+    color: black;
+    font-size: 1.8rem;
+    margin: 2rem auto;
+    
+}
+
+#img-desc {
+    font-size: 10px;
+    
+    
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+p {
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+    margin: 1rem auto;
+}
+
+
+a {
+    text-decoration: none;
+    color: rgb(86, 123, 149);
+}
+
+
+.inflation {
+    font-size: 15px;
+}
+
+.grid-desc {
+    text-align: justify;
+    font-size: 12px;
+    padding: 0;
+    margin:0;
+    line-height: 1.5em;
+}
+
+.grid-img {
+    width: 100%;
+}
+
+#author2 {
+    font-size: 12px;
+    color: gray;
+}
+
+iframe {
+    width: 100%;
+    height: 500px;
+    padding-top: 4rem;
+    
+    
+}
+
+.vid-img-area {
+    width: 100%;
+    align-self: center;
+    margin: auto;
+    font-size: 15px;
+}
+
+figcaption {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: nyt-imperial, georgia, "times new roman", times, serif;
+}
+
+#img2 {
+    width: 100%;
+}
+
+
+span {
+    margin: auto;
+    padding-bottom: 1rem;
+    font-family:'Libre Franklin', sans-serif;
+    font-size: 0.75rem;
+}
+
+.space-img {
+    width: 100%;
+    height: auto;
+}
+
+.most-popular-links {
+    text-decoration: none;
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    align-items: center;
+}
+
+.more-sctn-hdngs {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.8rem;
+}
+
+#footer-img {
+    width: 200px;
+}
+
+
+ul {
+    line-height: 1.4em;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+.ftr-lnks-list {
+    color: black;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.copyright-links-list {
+    color: grey;
+}
